@@ -17,8 +17,14 @@ module.exports = {
   },
   resolve: {
     root: __dirname,
+    // modulesDirectories: [
+    //   'node_modules',
+    //   './app/components'
+    // ],
     alias: {
-      Main: 'app/components/main.js',
+      TodoApp: 'app/components/todo_app.js',
+      TodoList: 'app/components/todo_list.js',
+      Todo: 'app/components/todo.js',
       Nav: 'app/components/nav.js',
       ErrorModal: 'app/components/error_modal.js',
       applicationStyles: 'app/styles/app.scss',
