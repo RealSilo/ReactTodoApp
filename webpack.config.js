@@ -25,6 +25,7 @@ module.exports = {
       TodoApp: 'app/components/todo_app.js',
       TodoList: 'app/components/todo_list.js',
       Todo: 'app/components/todo.js',
+      AddTodo: 'app/components/add_todo.js',
       Nav: 'app/components/nav.js',
       ErrorModal: 'app/components/error_modal.js',
       applicationStyles: 'app/styles/app.scss',
