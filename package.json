@@ -1,5 +1,5 @@
 {
-  "name": "boilerplate",
+  "name": "TodoApp",
   "version": "1.0.0",
   "description": "Simple todo react app",
   "main": "app.js",
