@@ -10,7 +10,7 @@ var Todo = React.createClass({
       var timestamp = createdAt;
 
       if (completed) {
-        message = 'Completed';
+        message = 'Completed ';
         timestamp = completedAt;
       }
       return message + moment.unix(timestamp).format('MMM Do YYYY @ h:mm a');
