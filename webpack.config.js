@@ -30,7 +30,8 @@ module.exports = {
       TodoSearch: 'app/components/todo_search.js',
       Nav: 'app/components/nav.js',
       ErrorModal: 'app/components/error_modal.js',
-      applicationStyles: 'app/styles/app.scss',
+      actions: 'app/actions/actions.js',
+      applicationStyles: 'app/styles/app.scss'
     },
     extensions: ['', '.js', '.jsx']
   },
