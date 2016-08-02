@@ -32,6 +32,7 @@ module.exports = {
       ErrorModal: 'app/components/error_modal.js',
       actions: 'app/actions/actions.js',
       reducers: 'app/reducers/reducers.js',
+      configureStore: 'app/store/configure_store.js',
       applicationStyles: 'app/styles/app.scss'
     },
     extensions: ['', '.js', '.jsx']
