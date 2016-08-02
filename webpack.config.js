@@ -31,6 +31,7 @@ module.exports = {
       Nav: 'app/components/nav.js',
       ErrorModal: 'app/components/error_modal.js',
       actions: 'app/actions/actions.js',
+      reducers: 'app/reducers/reducers.js',
       applicationStyles: 'app/styles/app.scss'
     },
     extensions: ['', '.js', '.jsx']
