@@ -22,6 +22,7 @@ module.exports = {
     //   './app/components'
     // ],
     alias: {
+      app: 'app',
       TodoAPI: 'app/api/todo_api.js',
       TodoApp: 'app/components/todo_app.js',
       TodoList: 'app/components/todo_list.js',
