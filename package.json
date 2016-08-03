@@ -4,7 +4,7 @@
   "description": "Simple todo react app",
   "main": "app.js",
   "scripts": {
-    "test": "karma start",
+    "test": "NODE_ENV=test karma start",
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "prod": "NODE_ENV=production node server.js",
     "postinstall": "webpack -p"
@@ -20,6 +20,8 @@
     "babel-preset-stage-0": "^6.5.0",
     "babel-preset-stage-1": "^6.5.0",
     "css-loader": "^0.23.1",
+    "deep-freeze-strict": "^1.1.1",
+    "expect": "^1.20.2",
     "express": "^4.13.4",
     "firebase": "^3.2.1",
     "foundation-sites": "^6.2.3",
@@ -29,10 +31,12 @@
     "node-sass": "^3.8.0",
     "node-uuid": "^1.4.7",
     "react": "^0.14.7",
+    "react-addons-test-utils": "^0.14.7",
     "react-dom": "^0.14.7",
     "react-redux": "^4.4.5",
     "react-router": "^2.6.0",
     "redux": "^3.5.2",
+    "redux-mock-store": "^1.1.2",
     "redux-thunk": "^2.1.0",
     "sass-loader": "^4.0.0",
     "script-loader": "^0.7.0",
@@ -41,8 +45,6 @@
     "webpack": "^1.12.13"
   },
   "devDependencies": {
-    "deep-freeze-strict": "^1.1.1",
-    "expect": "^1.20.2",
     "karma": "^1.1.2",
     "karma-chrome-launcher": "^1.0.1",
     "karma-mocha": "^1.1.1",
@@ -50,8 +52,6 @@
     "karma-sourcemap-loader": "^0.3.7",
     "karma-webpack": "^1.7.0",
     "mocha": "^2.5.3",
-    "react-addons-test-utils": "^0.14.7",
-    "redux-mock-store": "^1.1.2",
     "webpack-dev-server": "^1.14.1"
   }
 }
